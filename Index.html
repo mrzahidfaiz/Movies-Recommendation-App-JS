@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="./app.js" defer></script>
+  <link rel="stylesheet" href="./styles.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container my-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-12">
+          <label for="genre">Genre</label>
+          <select id="genre" class="select">
+            <option value="">All</option>
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="science">Science Fiction</option>
+            <option value="horror">Horror</option>
+            <option value="drama">Drama</option>
+            <option value="family">Family</option>
+            <option value="comedy">Comedy</option>
+            <option value="tv">TV Movie</option>
+          </select>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <label for="year">Year</label>
+          <select name="year" id="year" class="select">
+            <option value="">All</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+            <option value="2018">2018</option>
+            <option value="2017">2017</option>
+            <option value="2016">2016</option>
+            <option value="2015">2015</option>
+          </select>
+        </div>
+        <div class="col-md-4 col-sm-12">
+          <label for="language">Language</label>
+          <select name="language" id="language" class="select">
+            <option value="">All</option>
+            <option value="english">English</option>
+            <option value="urdu">Urdu</option>
+            <option value="hindi">Hindi</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-3">
+      <div class="row">
+        <div class="col-sm-12">
+          <label for="rating">Rating</label>
+          <select name="rating" id="rating" class="select">
+            <option value="">All</option>
+            <option value="10">10</option>
+            <option value="9">9</option>
+            <option value="8">8</option>
+            <option value="7">7</option>
+            <option value="6">6</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6">
+          <button id="search" class="btn btn-success rounded ">
+            SEARCH
+          </button>
+      </div>
+      </div>
+    </div>
+   
+  
+
+  <!-- Display -->
+  <hr />
+  <div class="container m-0">
+    <div class="row">
+      <div class="col-md-2 font-weight-bold">Rank</div>
+      <div class="col-md-6 font-weight-bold">Movie</div>
+      <div class="col-md-4 text-center font-weight-bold">Year</div>
+    </div>
+  </div>
+  <hr />
+  <!-- 1st -->
+  <div id="display_Info">
+    <!-- <div class="container my-3 movie_card" >
+      <div class="row" id="row_card">
+        <div class="col-md-2">1</div>
+        <div class="col-md-2"><img src="" alt="logo" class="img-fluid"></div>
+        <div class="col-md-5">Movie</div>
+        <div class="col-md-3 text-center">Rating</div>
+      </div>
+    </div>  -->
+  </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"
+    integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+</html>
